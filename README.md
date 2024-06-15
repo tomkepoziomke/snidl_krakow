@@ -1,8 +1,6 @@
 # SNiDL - projekt
 
-+ Apel Aleksander (123456) 
-+ Grzonka Agnieszka (123456)
-+ Leniart Tomasz (123456)
+Apel Aleksander, Grzonka Agnieszka, Leniart Tomasz
 
 W ninejszym repozytorium znajduje się dokumentacja projektu:
 
