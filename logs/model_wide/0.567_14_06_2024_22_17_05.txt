@@ -1,0 +1,19 @@
+14/06/2024, 22:17:05
+SingleOutputModel(
+  (lstm): LSTM(7, 100, num_layers=3, batch_first=True, dropout=0.5)
+  (dense): ModuleList(
+    (0): Linear(in_features=300, out_features=5000, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.5, inplace=False)
+    (3): Linear(in_features=5000, out_features=7, bias=True)
+  )
+)
+Hidden state only: True
+Batch size: 512
+Training size: 72
+Epochs: 50
+Learning rate: 0.001
+Learning gamma: 0.9
+Final training loss (MSE): 0.12016568592814512
+Final test loss (MSE): 0.10800222431619962
+Final valid loss (MSE): 0.5667540729045868

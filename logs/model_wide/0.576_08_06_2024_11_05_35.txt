@@ -1,0 +1,20 @@
+08/06/2024, 11:05:35
+ExtrapolationModel(
+  (lstm): LSTM(7, 50, num_layers=3, batch_first=True, dropout=0.5)
+  (dense): ModuleList(
+    (0): ReLU()
+    (1): Linear(in_features=150, out_features=200, bias=True)
+    (2): ReLU()
+    (3): Dropout(p=0.5, inplace=False)
+    (4): Linear(in_features=200, out_features=7, bias=True)
+  )
+)
+Hidden state only: True
+Batch size: 512
+Training size: 72
+Epochs: 10
+Learning rate: 0.001
+Learning gamma: 0.9
+Final training loss (MSE): 0.7032266869101413
+Final test loss (MSE): 0.7322046756744385
+Final valid loss (MSE): 0.575949082771937
